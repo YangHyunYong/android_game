@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/producer"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="만든 사람"
+        />
+
+    <item
+        android:id="@+id/evaluate"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="게임 평가"
+        />
+</menu>

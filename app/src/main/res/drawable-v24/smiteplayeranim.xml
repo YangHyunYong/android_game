@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/skill1" android:duration="100"/>
+    <item android:drawable="@drawable/rush" android:duration="400"/>
+    <item android:drawable="@drawable/skill3" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_1" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_2" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_3" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_4" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_5" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_6" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_7" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_8" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_9" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_10" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_11" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_12" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_13" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_14" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_15" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_16" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_17" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_18" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_19" android:duration="10"/>
+    <item android:drawable="@drawable/skill3_20" android:duration="100"/>
+    <item android:drawable="@drawable/skill1" android:duration="100"/>
+</animation-list>

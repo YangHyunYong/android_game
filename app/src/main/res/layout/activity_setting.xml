@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/setting"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:text="환경 설정"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:text="BGM"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/bgmon"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:background="#00FF0000"
+                android:scaleType="fitXY"
+                android:src="@drawable/music" />
+
+            <ImageButton
+                android:id="@+id/bgmoff"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:background="#00FF0000"
+                android:scaleType="fitXY"
+                android:src="@drawable/music_mute" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:text="효과음"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/effecton"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:background="#00FF0000"
+                android:scaleType="fitXY"
+                android:src="@drawable/effectsound" />
+
+            <ImageButton
+                android:id="@+id/effectoff"
+                android:layout_width="79dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:background="#00FF0000"
+                android:scaleType="fitXY"
+                android:src="@drawable/effectsound_mute" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:text="배터리"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/batteryon"
+                android:layout_width="86dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:background="#00FF0000"
+                android:scaleType="fitXY"
+                android:src="@drawable/battery_on" />
+
+            <ImageButton
+                android:id="@+id/batteryoff"
+                android:layout_width="78dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:background="#00FF0000"
+                android:scaleType="fitXY"
+                android:src="@drawable/battery_off" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:text="게임 초기화"
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/reset"
+                android:layout_width="49dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="50dp"
+                android:background="#00FF0000"
+                android:src="@drawable/restart" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+

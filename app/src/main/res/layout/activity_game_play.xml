@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gamebackground"
+    android:id="@+id/layout"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/nothing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="골드 : "
+                android:visibility="invisible"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+            <RelativeLayout android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/image_battery"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/battery100" />
+
+                <TextView
+                    android:id="@+id/text_battery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_battery"
+                    android:layout_marginLeft="12dp"
+                    android:textColor="#FFFFFF" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="237dp"
+            android:layout_y="4dp"
+            android:text="100 / 100"
+            android:textColor="#FFFF00"
+            android:textSize="30dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_x="170dp"
+            android:layout_y="53dp" />
+
+        <TextView
+            android:id="@+id/monsterLv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="254dp"
+            android:layout_y="330dp"
+            android:text="몬스터Lv. "
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="169dp"
+            android:layout_y="76dp">
+            <ImageView
+                android:id="@+id/monster"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boss" />
+            <ImageView
+                android:id="@+id/attack_effect"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/characterLv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="30dp"
+            android:layout_y="330dp"
+            android:text="캐릭터Lv. "
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/player"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_x="0dp"
+            android:layout_y="165dp"
+            android:background="@drawable/skill1" />
+
+        <TextView
+            android:id="@+id/gauge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="45dp"
+            android:layout_y="110dp"
+            android:textColor="#ffff00"
+            android:text="0 / 300"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="140dp"
+            android:max="300" />
+
+        <Button
+            android:id="@+id/btn_skill1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_x="0dp"
+            android:layout_y="380dp"
+            android:text="연타" />
+
+        <Button
+            android:id="@+id/btn_skill2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_x="110dp"
+            android:layout_y="380dp"
+            android:text="골드 2배" />
+
+        <Button
+            android:id="@+id/btn_skill3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_x="220dp"
+            android:layout_y="380dp"
+            android:text="데미지 2배" />
+
+        <Button
+            android:id="@+id/btn_skill4"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_x="330dp"
+            android:layout_y="380dp"
+            android:text="강타" />
+
+        <Button
+            android:id="@+id/reinforce"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_x="0dp"
+            android:layout_y="450dp"
+            android:text="캐릭터 강화"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="골드 : "
+            android:layout_x="165dp"
+            android:layout_y="455dp"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/needGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="165dp"
+            android:layout_y="495dp"
+            android:text="강화 비용 : "
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"/>
+
+    </AbsoluteLayout>
+</LinearLayout>

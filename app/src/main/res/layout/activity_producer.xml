@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/intro"
+            android:text="-개발자 소개-"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/image1"
+            android:src="@drawable/e"
+            android:layout_width="120dp"
+            android:layout_height="160dp"
+            android:layout_below="@+id/intro"/>
+        <TextView
+            android:id="@+id/text_content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1996' 서울 출생\n2014' 광신고등학교 졸업\n2015' 한국산업기술대학교 입학\n2019' IMS 연구실 취업"
+            android:layout_toRightOf="@id/image1"
+            android:layout_alignTop="@id/image1"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/text_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015152025 이강우\n"
+            android:layout_below="@id/image1"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image2"
+            android:src="@drawable/yang"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <TextView
+            android:id="@+id/text_content2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1996' 안양 출생\n2014' 과천고등학교 졸업\n2015' 한국산업기술대학교 입학\n2018' 육군병장 만기 전역\n2019' 한국산업기술대학교 재학중"
+            android:layout_toRightOf="@id/image2"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/text_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015154023 양현용\n"
+            android:layout_below="@id/image2"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image3"
+            android:src="@drawable/h"
+            android:layout_width="120dp"
+            android:layout_height="160dp" />
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1996' 서울 출생\n2014' 중흥고등학교 졸업\n2015' 한국산업기술대학교 입학\n2018' 의무경찰 만기 전역\n2019' 안드로이드 스튜디오 고급 실력 보유"
+            android:layout_toRightOf="@id/image3"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015154040 한승훈\n"
+            android:layout_below="@id/image3"/>
+    </RelativeLayout>
+</LinearLayout>

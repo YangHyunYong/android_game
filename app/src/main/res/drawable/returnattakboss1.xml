@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item android:drawable="@drawable/boss" android:duration="610"/>
+    <item android:drawable="@drawable/d1" android:duration="50"/>
+    <item android:drawable="@drawable/d2" android:duration="50"/>
+    <item android:drawable="@drawable/d3" android:duration="50"/>
+    <item android:drawable="@drawable/d4" android:duration="50"/>
+    <item android:drawable="@drawable/d5" android:duration="50"/>
+    <item android:drawable="@drawable/d6" android:duration="50"/>
+    <item android:drawable="@drawable/hit1" android:duration="50"/>
+    <item android:drawable="@drawable/hit2" android:duration="50"/>
+    <item android:drawable="@drawable/hit3" android:duration="50"/>
+    <item android:drawable="@drawable/hit4" android:duration="50"/>
+    <item android:drawable="@drawable/hit5" android:duration="50"/>
+    <item android:drawable="@drawable/hit6" android:duration="50"/>
+    <item android:drawable="@drawable/hit7" android:duration="50"/>
+    <item android:drawable="@drawable/boos2sizefix" android:duration="50"/>
+
+</animation-list>
